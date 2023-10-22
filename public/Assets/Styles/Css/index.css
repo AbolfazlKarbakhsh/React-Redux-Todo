@@ -1,0 +1,61 @@
+@font-face {
+    font-family: vazirbold;
+    src: url('../../Fonts/Vazir-Bold.ttf');
+}
+
+html,
+#root {
+    background: #0D0D0D;
+    color: #FF5631;
+}
+
+.Titr-React {
+    font-family: vazir;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: normal;
+}
+.Titr-React span{
+    color: #FF5631;
+}
+
+
+.Todo-Task{
+    background: #1E1E1E;
+    border: 1px solid #dbcaaf95;
+    border-radius: 8px;
+}
+
+.Todo-Task-Titr {
+    margin: 0 .6rem;
+    color: #DBCAAF;
+    font-weight: 900 !important;
+    font-size: 1.1rem;
+    font-family: vazirbold;
+}
+.Todo-Task-Icon{
+    color:#dbcaafdf ;
+    font-size: 1.5rem;
+}
+
+.circle-todo{
+    background: transparent;
+    border: 2px solid #FF5631;
+    width: 30px;
+    height: 30px;
+
+}
+
+/* Global  */
+.w-lg-50{
+    width: 50% ;
+}
+@media (max-width: 912px) { 
+    .w-lg-100-min{
+        width: 100%;
+    }
+ }
+

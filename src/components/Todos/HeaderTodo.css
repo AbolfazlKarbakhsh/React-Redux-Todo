@@ -1,0 +1,41 @@
+* {
+    font-family: vazir;
+}
+
+.headerTodo {
+    background: #0D0D0D;
+    border: 1px solid #cebea491;
+    border-radius: 30px;
+    padding: 2rem 0;
+
+}
+
+.card {
+    border: none;
+    background: #0D0D0D;
+
+}
+
+.circleResalt {
+    background: #FF5631;
+    color: #0D0D0D;
+    width: 130px;
+    height: 130px;
+}
+
+.circleResalt strong {
+    font-size: 2.1rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.TitrTodo h3 {
+    color: #cebea4;
+}
+
+.TitrTodo h6 {
+    color: #cebea4;
+    font-family: monospace;
+    margin-top: -7px;
+}
