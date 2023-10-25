@@ -2,8 +2,8 @@ import React from 'react';
 import "./HeaderTodo.css"
 const HeaderTodo = () => {
     return (
-        <div class="card">
-            <div class="card-body headerTodo px-3 px-sm-5 px-md-5 d-flex justify-content-between align-items-center">
+        <div className="card">
+            <div className="card-body headerTodo px-3 px-sm-5 px-md-5 d-flex justify-content-between align-items-center">
 
                 <div className='TitrTodo'>
                     <h3>Todo Done</h3>

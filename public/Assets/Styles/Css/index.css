@@ -1,6 +1,23 @@
 @font-face {
-    font-family: vazirbold;
-    src: url('../../Fonts/Vazir-Bold.ttf');
+    font-family: K-BOLD;
+    src: url('../../Fonts/KALAMEH_BOLD.TTF');
+}
+@font-face {
+    font-family: K-REG;
+    src: url('../../Fonts/KALAMEH_REGULAR.TTF');
+}
+@font-face {
+    font-family: K-THIN;
+    src: url('../../Fonts/KALAMEH_THIN.TTF');
+}
+@font-face {
+    font-family: "K-BLACK";
+    src: url('../../Fonts/KALAMEH-BLACK.TTF');
+}
+
+@font-face {
+    font-family: "K-flow";
+    src: url('../../Fonts/KALAMEHFANUM-BOLD.TTF');
 }
 
 html,
@@ -9,8 +26,9 @@ html,
     color: #FF5631;
 }
 
+
 .Titr-React {
-    font-family: vazir;
+    font-family: "K-BLACK";
     color: #ffffff;
     font-size: 1.25rem;
     font-style: normal;
@@ -20,6 +38,7 @@ html,
 }
 .Titr-React span{
     color: #FF5631;
+    font-family: "K-BLACK";
 }
 
 
@@ -34,7 +53,10 @@ html,
     color: #DBCAAF;
     font-weight: 900 !important;
     font-size: 1.1rem;
-    font-family: vazirbold;
+    font-weight: 100;
+    letter-spacing: .3px;
+    word-spacing: 1px;
+    font-family: "k-flow";
 }
 .Todo-Task-Icon{
     color:#dbcaafdf ;
@@ -47,6 +69,39 @@ html,
     width: 30px;
     height: 30px;
 
+}
+
+.proloader-animaite{
+    animation: preLoader 2.5s ease-in;
+}
+.proloader{
+    position: fixed;
+    background-color: #0D0D0D;
+    z-index: 10;
+    inset: 0;
+    width: 100%;
+    height: 100%;   
+    
+}
+@media (max-width:512px) {
+    .proloader *{
+        font-size: 2rem ; 
+    }
+}
+.proloader *{
+    font-size: 3rem ; 
+}
+
+@keyframes preLoader {
+    0%{
+        scale: 0;
+    }
+    50%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
 }
 
 /* Global  */

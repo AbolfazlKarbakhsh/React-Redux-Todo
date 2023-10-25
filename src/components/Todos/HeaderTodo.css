@@ -1,5 +1,5 @@
 * {
-    font-family: vazir;
+    font-family: "K-BLACK";
 }
 
 .headerTodo {
@@ -24,9 +24,9 @@
 }
 
 .circleResalt strong {
-    font-size: 2.1rem;
+    font-size: 3rem;
     font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "K-BOLD", Geneva, Tahoma, sans-serif;
 
 }
 
@@ -36,6 +36,7 @@
 
 .TitrTodo h6 {
     color: #cebea4;
-    font-family: monospace;
+    font-family: "K-REG";
+    font-size:1.8rem;
     margin-top: -7px;
 }
