@@ -6,6 +6,7 @@ const Header = () => {
             <h1 className='Titr-React mx-2'>REDUX<span>TODO</span></h1>
         </div>
     );
+    
 }
 
 export default Header;
