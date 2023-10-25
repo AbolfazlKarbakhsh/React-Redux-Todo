@@ -10,6 +10,7 @@ const MyStore = () => {
 
 
  
+  
   return (
     <div>
       {/* <p>{fruit.apple}</p>
