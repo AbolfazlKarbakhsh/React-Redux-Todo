@@ -1,23 +1,22 @@
 @font-face {
     font-family: "KBOLD";
-    src: url('../../Fonts/KALAMEH_BOLD.TTF');
+    src: url('../../fonts/KALAMEH_BOLD.TTF');
 }
 @font-face {
     font-family: "KREG";
-    src: url('../../Fonts/KALAMEH_REGULAR.TTF');
+    src: url('../../fonts/KALAMEH_REGULAR.TTF');
 }
 @font-face {
     font-family: "KTHIN";
-    src: url('../../Fonts/KALAMEH_THIN.TTF');
+    src: url('../../fonts/KALAMEH_THIN.TTF');
 }
 @font-face {
     font-family: "KBLACK";
-    src: url('../../Fonts/KALAMEH-BLACK.TTF');
+    src: url('../../fonts/KALAMEH-BLACK.TTF');
 }
-
 @font-face {
     font-family: "Kflow";
-    src: url('../../Fonts/KALAMEHFANUM-BOLD.TTF');
+    src: url('../../fonts/KALAMEHFANUM-BOLD.TTF');
 }
 
 html,
