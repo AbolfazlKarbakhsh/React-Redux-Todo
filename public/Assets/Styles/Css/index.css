@@ -93,13 +93,13 @@ html,
 
 @keyframes preLoader {
     0%{
-        scale: 0;
+        opacity: 0;
     }
     50%{
-        scale: 1.2;
+        opacity: 1.2;
     }
     100%{
-        scale: 1;
+        opacity: 1;
     }
 }
 
