@@ -71,7 +71,7 @@ html,
 }
 
 .proloader-animaite{
-    animation: "preLoader" 2.5s ease-in;
+    animation: "preLoaders" 2.5s ease-in;
 }
 .proloader{
     position: fixed;
@@ -91,7 +91,7 @@ html,
     font-size: 3rem ; 
 }
 
-@keyframes preLoader {
+@keyframes preLoaders {
     0%{
         opacity: 0;
     }
