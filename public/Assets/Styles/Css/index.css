@@ -51,10 +51,11 @@ html,
     margin: 0 .6rem;
     color: #DBCAAF;
     font-weight: 900 !important;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 100;
     letter-spacing: .3px;
     word-spacing: 1px;
+    width:auto;
     font-family: "Kflow";
 }
 .Todo-Task-Icon{
@@ -67,6 +68,20 @@ html,
     border: 2px solid #FF5631;
     width: 30px;
     height: 30px;
+    transition: all .5s;
+
+}
+
+
+.onInputChange{
+    border:2px solid #57CB4C !important;
+    background: #57CB4C!important;
+    transition: all .5s;
+}
+
+.del{
+  text-decoration: line-through #DBCAAF 2px;
+  transition: all .5s;
 
 }
 
@@ -107,7 +122,7 @@ html,
 .w-lg-50{
     width: 50% ;
 }
-@media (max-width: 912px) { 
+@media (max-width: 993px) { 
     .w-lg-100-min{
         width: 100%;
     }

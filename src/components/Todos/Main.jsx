@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import HeaderTodo from './headerTodo';
+import HeaderTodo from './headerTodo/headerTodo';
 import Input from './input';
+import useLocal from "../../hooks/useLocal"
 import 'animate.css';
 
 
 const Main = () => {
+
     const [preloader, setPreloder] = useState(
         <div className='proloader'>
             <div className='d-flex align-items-center justify-content-center h-100'>
@@ -12,15 +14,14 @@ const Main = () => {
             </div>
         </div>
     )
-
-    useEffect(()=>{
-        setTimeout(()=>{
+    useEffect(() => {
+        setTimeout(() => {
             setPreloder("")
-        },3500)
-    },[])
+        }, 1000)
+    }, [])
 
     return (
-        <div className=''>
+        <div>
 
             {
                 preloader

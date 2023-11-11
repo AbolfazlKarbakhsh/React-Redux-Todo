@@ -1,6 +1,5 @@
 import { createStore }  from "redux";
-import fruitReducer from "./Fruit/fruitReducer";
-
-export const store = createStore(fruitReducer) 
+import TodoReducer from "./Todo/todo-reducer";
+export const store = createStore(TodoReducer);
 
 
