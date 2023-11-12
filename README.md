@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Reacr Redux Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello, this web application is developed with React and in this project Redux state management is used.
 
 ## Available Scripts
 
