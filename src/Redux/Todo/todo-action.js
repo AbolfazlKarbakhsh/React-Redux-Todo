@@ -13,3 +13,11 @@ export const TodoTRASH = (id) => {
         type: Type.TodoDelete, id:id
     }
 };
+
+
+
+export const TodoChangeState = (id) => {
+    return {
+        type: Type.TodoState, id:id
+    }
+};
