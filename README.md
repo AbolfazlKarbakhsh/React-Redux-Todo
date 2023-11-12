@@ -1,4 +1,4 @@
-# Reacr Redux Project
+# React Redux Project
 
 Hello, this web application is developed with React and in this project Redux state management is used.
 
