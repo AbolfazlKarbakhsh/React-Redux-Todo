@@ -21,3 +21,9 @@ export const TodoChangeState = (id) => {
         type: Type.TodoState, id:id
     }
 };
+
+export const TodoEdit = (id , value) => {
+    return {
+        type: Type.TodoEdit, id:id , value:value
+    }
+};

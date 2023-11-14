@@ -1,17 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Header from './Todos/headerTodo/header';
-import TodoReducer from '../Redux/Todo/todo-reducer';
-import useLocal from '../hooks/useLocal';
 import Main from './Todos/Main';
-import { useDispatch, useSelector } from 'react-redux';
-
+import Up from './UP';
 const Todos = () => {
 
-    const dispath = useDispatch()
-    const [taskes , setTaskes] = useLocal()
-
-  
- 
     return (
         <div className='container mt-3'>
             <Header />
