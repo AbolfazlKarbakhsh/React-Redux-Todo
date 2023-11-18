@@ -86,9 +86,16 @@
   background-color: #d0bfa4 !important; 
   border-color: #d0bfa4 !important;
   color: #000 !important; 
-  font-size: 1rem !important;
+  font-size: .9rem !important;
   height: 35px !important;
   width: 90px;
+}
+
+.ant-modal-footer{
+  justify-content: start !important;
+  align-items: center !important;
+  display: none !important;
+  
 }
 
 .ant-btn * {
@@ -102,4 +109,21 @@
 
 .anticon {
   color: #d0bfa4 !important;
+}
+
+.ant-alert-error{
+  font-family:"KBLACK" !important;
+  background: #fff2f0 !important;
+  border: 1px solid #ffccc7 !important;
+}
+
+.ant-alert-message{
+  font-family:"KBLACK" !important;
+  font-size: .9rem !important;
+}
+
+.anticon-close-circle{
+  color: #ff4d4f !important;
+  font-size: 1.4rem !important;
+
 }

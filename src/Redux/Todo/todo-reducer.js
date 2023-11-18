@@ -48,9 +48,9 @@ const TodoReducer = (state = [...tasks], action) => {
         case Type.TodoEdit: {
             return state.map(item => {
                 if(item.id == action.id){
-                   return { ...item , taskName:action.value}
+                   return  { ...item, taskName: action.value }
                 }else{
-                    return {...item}
+                    return item
                 }
             })
         }

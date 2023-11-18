@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './Todos/headerTodo/header';
 import Main from './Todos/Main';
-import Up from './UP';
 const Todos = () => {
 
     return (
