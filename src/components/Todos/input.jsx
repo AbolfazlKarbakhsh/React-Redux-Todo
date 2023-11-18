@@ -84,6 +84,12 @@ const Input = () => {
         setEtask({ task: TaskUpdate.task, id: TaskUpdate.id })
     }, [TaskUpdate])
 
+    useEffect(()=>{
+        if(modal1Open == false){
+            setAlert('none')
+        }
+    } , [modal1Open])
+
 
 
 
